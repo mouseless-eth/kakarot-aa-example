@@ -14,15 +14,15 @@ pnpm run start
 
 ## Contracts
 
-`src/index.ts` will deploy the following contracts:
+`src/index.ts` will do the following operations:
 
-- Deterministic Deployer (Non EIP-155): `0xac19aa389d94E8b74dD25bd25C9F1DE96e812402` ([source code](https://github.com/Arachnid/deterministic-deployment-proxy))
+- Deploy Deterministic Deployer (Non EIP-155): `0xac19aa389d94E8b74dD25bd25C9F1DE96e812402` ([source code](https://github.com/Arachnid/deterministic-deployment-proxy))
 
-- EntryPoint V0.6: `0x027b465F1Cfc3B2A70611587d3eE06362AA14E3a` ([source code](https://github.com/eth-infinitism/account-abstraction/blob/releases/v0.6/contracts/core/EntryPoint.sol))
+- Deploy EntryPoint V0.6: `0x027b465F1Cfc3B2A70611587d3eE06362AA14E3a` ([source code](https://github.com/eth-infinitism/account-abstraction/blob/releases/v0.6/contracts/core/EntryPoint.sol))
 
-- SimpleAccountFactory V0.6: `0xA3f44eF06ECccf45CfcF38920cB9e0FD23A66E31` ([source code](https://github.com/eth-infinitism/account-abstraction/blob/releases/v0.6/contracts/samples/SimpleAccountFactory.sol))
+- Deploy SimpleAccountFactory V0.6: `0xA3f44eF06ECccf45CfcF38920cB9e0FD23A66E31` ([source code](https://github.com/eth-infinitism/account-abstraction/blob/releases/v0.6/contracts/samples/SimpleAccountFactory.sol))
 
-- Counter Factual SmartAccount Address: `0xE1308369167a65CDEFC1247c812eeeB705237018` ([source code](https://github.com/eth-infinitism/account-abstraction/blob/releases/v0.6/contracts/samples/SimpleAccount.sol))
+- Fund SmartAccount: `0xE1308369167a65CDEFC1247c812eeeB705237018` ([source code](https://github.com/eth-infinitism/account-abstraction/blob/releases/v0.6/contracts/samples/SimpleAccount.sol))
 
 
 ## Making Raw HandleOp Call
@@ -35,6 +35,7 @@ cast send 0x027b465F1Cfc3B2A70611587d3eE06362AA14E3a \
 ```
 
 ## Raw UserOperation
+
 ```json
 {
   "sender": "0xE1308369167a65CDEFC1247c812eeeB705237018",
