@@ -22,8 +22,9 @@ pnpm run start
 
 - Deploy SimpleAccountFactory V0.6: `0xA3f44eF06ECccf45CfcF38920cB9e0FD23A66E31` ([source code](https://github.com/eth-infinitism/account-abstraction/blob/releases/v0.6/contracts/samples/SimpleAccountFactory.sol))
 
-- Fund SmartAccount: `0xE1308369167a65CDEFC1247c812eeeB705237018` ([source code](https://github.com/eth-infinitism/account-abstraction/blob/releases/v0.6/contracts/samples/SimpleAccount.sol))
+- Fund SmartAccount `0xE1308369167a65CDEFC1247c812eeeB705237018` ([source code](https://github.com/eth-infinitism/account-abstraction/blob/releases/v0.6/contracts/samples/SimpleAccount.sol))
 
+> Addresses and their bytecode are the same as on kakarot-sepolia
 
 ## Making Raw HandleOp Call
 
