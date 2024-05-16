@@ -38,14 +38,14 @@ cast send 0x027b465F1Cfc3B2A70611587d3eE06362AA14E3a \
 ```json
 {
   "sender": "0xE1308369167a65CDEFC1247c812eeeB705237018",
-  "nonce": 0n,
+  "nonce": 0,
   "initCode": "0xA3f44eF06ECccf45CfcF38920cB9e0FD23A66E315fbfb9cf0000000000000000000000004b4888942bfe98731727d0955cdd42cbecf3dd190000000000000000000000000000000000000000000000000000000000000000",
   "callData": "0x",
-  "callGasLimit": 350000n,
-  "verificationGasLimit": 550000n,
-  "preVerificationGas": 250000n,
-  "maxFeePerGas": 1000000000n,
-  "maxPriorityFeePerGas": 150000000n,
+  "callGasLimit": 350000,
+  "verificationGasLimit": 550000,
+  "preVerificationGas": 250000,
+  "maxFeePerGas": 1000000000,
+  "maxPriorityFeePerGas": 150000000,
   "paymasterAndData": "0x",
   "signature": "0xf94b0f38c0c3481e9597f629e072de8572826438ceb3f8a7fa90ba9f1b0ee2d759912d6b6ede30ec2285e8f1153ea73e3acf1751709c8c323dfebcb87902b27e1b"
 }
