@@ -2,12 +2,15 @@
 	"name": "kakarot-aa",
 	"version": "0.0.0",
 	"scripts": {
-		"start": "ts-node src/index.ts"
+		"start": "ts-node src/index.ts",
+		"getHandleOps": "ts-node src/createHandleOps.ts"
 	},
 	"keywords": [],
 	"author": "",
 	"license": "ISC",
 	"dependencies": {
+		"permissionless": "^0.1.29",
+		"tslib": "^2.6.2",
 		"viem": "^2.10.8",
 		"wait-port": "^1.1.0"
 	},
